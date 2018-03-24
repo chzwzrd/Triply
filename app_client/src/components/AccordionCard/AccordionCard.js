@@ -48,6 +48,7 @@ class AccordionCard extends Component {
                                         <span className=" empty-card-title card-park-title card-title">No park added</span>
                                         <Link to={`/park?tripId=${trip.id}`}>
                                             <button
+                                                id="park-add-btn"
                                                 data-trip-id={trip.id}
                                                 className='btn btn-primary pull-right card-add-btn'
                                             >Add</button>
