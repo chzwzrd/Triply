@@ -21,6 +21,6 @@ module.exports = function (sequelize, DataTypes) {
         }); // END JOIN 
     }; // END ASSOCIATION
 
-    return User;
+    return User; 
 
 }; // END EXPORT
