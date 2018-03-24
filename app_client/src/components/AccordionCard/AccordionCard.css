@@ -21,7 +21,9 @@
 
 #park-add-btn,
 #trail-add-btn {
-    background-color: rgb(204, 162, 47);
+    background-color: rgb(211, 167, 48);
+    border-color: rgb(211, 167, 48);
+    color: white;
 }
 
 #park-add-btn:hover,

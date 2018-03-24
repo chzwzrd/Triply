@@ -16,7 +16,8 @@ module.exports = function (sequelize, DataTypes) {
 
     User.associate = function (models) {
         User.hasMany(models.Trip, {
-            onDelete: 'cascade'
+            onDelete: 'cascade',
+            hooks: true
         }); // END JOIN 
     }; // END ASSOCIATION
 
